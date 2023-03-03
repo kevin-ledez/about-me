@@ -1,12 +1,30 @@
 body{
-    background-color: #fffbf4;
+    background-color: #ffffff;
     margin: 0;
     padding: 0;
 }
 
+ul{
+    list-style-type:none;
+    padding: 0;
+    margin: 0;
+}
+
+table,
+td {
+    border: 1px solid #333;
+}
+
+thead,
+tfoot {
+    background-color: #333;
+    color: #fff;
+}
+
 header{
+    border-bottom: 1px solid #ccc;
     height: 55px;
-    background-color: #3ee529;
+    background-color: #baff3d;
     margin: 0;
     padding: 0;
 }
@@ -23,13 +41,13 @@ header{
 }
 
 .menu li{
-    list-style-type: none;
-    margin: 17px;
+    
 }
 
 .menu a{
-    color: #fffbb2;
+    color: #ffffff;
     display: block;
+    margin: 17px 0;
     text-align: center;
     min-width: 120px;
     text-decoration: none;
@@ -40,6 +58,42 @@ header{
 
 }
 
-#footer{
+.container{
+    text-align: center;
+}
 
+.histoire{
+    width: 750px;
+    display: flex;
+    margin: auto;
+}
+
+.maphoto{
+    margin: auto;
+    display: flex;
+}
+
+.monhistoire{
+
+}
+
+.connaissances{
+    width: 350px;
+    margin: auto;
+}
+
+footer{
+    background-color: #1a2207;
+    color: #ffffff;
+    margin-top: 10px;
+    height: 40px;
+}
+
+footer p{
+    padding: 11px;
+}
+
+.list {
+    margin: auto;
+    display: inline-block;
 }
