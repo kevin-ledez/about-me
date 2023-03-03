@@ -1,0 +1,45 @@
+body{
+    background-color: #fffbf4;
+    margin: 0;
+    padding: 0;
+}
+
+header{
+    height: 55px;
+    background-color: #3ee529;
+    margin: 0;
+    padding: 0;
+}
+
+#nav{
+
+}
+
+.menu{
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+}
+
+.menu li{
+    list-style-type: none;
+    margin: 17px;
+}
+
+.menu a{
+    color: #fffbb2;
+    display: block;
+    text-align: center;
+    min-width: 120px;
+    text-decoration: none;
+    font-size: 17px;
+}
+
+#section{
+
+}
+
+#footer{
+
+}
