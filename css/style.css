@@ -1,7 +1,8 @@
 body{
-    background-color: #ffffff;
+    background-color: #edf0fe;
     margin: 0;
     padding: 0;
+    height: 100%;
 }
 
 ul{
@@ -21,10 +22,10 @@ tfoot {
     color: #fff;
 }
 
-header{
+.header{
     border-bottom: 1px solid #ccc;
     height: 55px;
-    background-color: #baff3d;
+    background-color: #ffffff;
     margin: 0;
     padding: 0;
 }
@@ -34,18 +35,12 @@ header{
 }
 
 .menu{
-    margin: 0;
-    padding: 0;
     display: flex;
     justify-content: center;
 }
 
-.menu li{
-    
-}
-
 .menu a{
-    color: #ffffff;
+    color: #111111;
     display: block;
     margin: 17px 0;
     text-align: center;
@@ -60,6 +55,7 @@ header{
 
 .container{
     text-align: center;
+    min-height: 100%;
 }
 
 .histoire{
@@ -82,15 +78,18 @@ header{
     margin: auto;
 }
 
-footer{
-    background-color: #1a2207;
+.footer{
+    background-color: #585858;
     color: #ffffff;
-    margin-top: 10px;
-    height: 40px;
+    margin: 0;
+    
+    width: 100%;
+    position: absolute;
+    bottom: 0;
 }
 
-footer p{
-    padding: 11px;
+.copyright{
+    padding: 15px;
 }
 
 .list {
