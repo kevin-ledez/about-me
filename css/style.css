@@ -22,6 +22,15 @@ tfoot {
     color: #fff;
 }
 
+figure {
+    border: thin #c0c0c0 solid;
+    display: flex;
+    flex-flow: column;
+    padding: 5px;
+    max-width: 700px;
+    margin: auto;
+}
+
 .header{
     border-bottom: 1px solid #ccc;
     height: 55px;
@@ -80,11 +89,8 @@ tfoot {
 .footer{
     background-color: #585858;
     color: #ffffff;
-    margin: 0;
-    
+    margin-top: 25px;
     width: 100%;
-    position: absolute;
-    bottom: 0;
 }
 
 .copyright{
@@ -94,4 +100,17 @@ tfoot {
 .list {
     margin: auto;
     display: inline-block;
+}
+
+figcaption {
+    background-color: #222;
+    color: #fff;
+    font: italic smaller sans-serif;
+    padding: 3px;
+    text-align: center;
+}
+
+.passions{
+    width: 700px;
+    margin: 15px auto;
 }
