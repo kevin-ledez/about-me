@@ -1,12 +1,12 @@
-body{
+body {
     background-color: #edf0fe;
     margin: 0;
     padding: 0;
     height: 100%;
 }
 
-ul{
-    list-style-type:none;
+ul {
+    list-style-type: none;
     padding: 0;
     margin: 0;
 }
@@ -31,7 +31,7 @@ figure {
     margin: auto;
 }
 
-.header{
+.header {
     border-bottom: 1px solid #ccc;
     height: 55px;
     background-color: #ffffff;
@@ -39,16 +39,12 @@ figure {
     padding: 0;
 }
 
-#nav{
-
-}
-
-.menu{
+.menu {
     display: flex;
     justify-content: center;
 }
 
-.menu a{
+.menu a {
     color: #111111;
     display: block;
     margin: 17px 0;
@@ -58,42 +54,34 @@ figure {
     font-size: 17px;
 }
 
-#section{
-
-}
-
-.container{
+.container {
     text-align: center;
     min-height: 100%;
 }
 
-.histoire{
-    width: 750px;
+.histoire {
+    max-width: 750px;
     display: flex;
     margin: auto;
 }
 
-.maphoto{
+.maphoto {
     margin: auto;
 }
 
-.monhistoire{
-
-}
-
-.connaissances{
+.connaissances {
     width: 350px;
     margin: auto;
 }
 
-.footer{
+.footer {
     background-color: #585858;
     color: #ffffff;
     margin-top: 25px;
     width: 100%;
 }
 
-.copyright{
+.copyright {
     padding: 15px;
 }
 
@@ -110,7 +98,7 @@ figcaption {
     text-align: center;
 }
 
-.passions{
+.passions {
     width: 700px;
     margin: 15px auto;
 }
