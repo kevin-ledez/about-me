@@ -1,3 +1,7 @@
+html {
+    height: 100%;
+}
+
 body {
     background-color: #FCF8E8;
     margin: 0;
@@ -97,6 +101,10 @@ label, #toggle
     min-height: 100%;
 }
 
+.content {
+    width: 100%;
+}
+
 .histoire {
     max-width: 750px;
     display: flex;
@@ -117,8 +125,14 @@ label, #toggle
     color: #ffffff;
     margin-top: 25px;
     width: 100%;
-    position: absolute;
+    height: 50px;
     bottom: 0;
+    left: 0;
+    right: 0;
+}
+
+.footer_parent{
+    position: relative;
 }
 
 .copyright {
