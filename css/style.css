@@ -16,15 +16,21 @@ ul {
     margin: 0;
 }
 
-table,
-td {
-    border: 1px solid #333;
+table {
+    border-collapse: collapse;
+    background: #fff;
+    border-radius: 6px;
+    overflow: hidden;
+}
+
+table tr {
+    height: 60px;
 }
 
 thead,
 tfoot {
-    background-color: #333;
-    color: #fff;
+    background-color: #94B49F;
+    color: #FFFFFF;
 }
 
 figure {
@@ -111,12 +117,8 @@ label, #toggle
     margin: auto;
 }
 
-.maphoto {
-    margin: auto;
-}
-
 .connaissances {
-    width: 350px;
+    width: 400px;
     margin: auto;
 }
 
