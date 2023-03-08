@@ -7,6 +7,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link href="css/style.css" rel="stylesheet" type="text/css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
+    <script src="https://cdn.jsdelivr.net/npm/darkmode-js@1.5.7/lib/darkmode-js.min.js"></script>
     <title>Accueil</title>
 </head>
 
@@ -15,13 +16,13 @@
         <nav>
             <label for="toggle">☰</label>
             <input type="checkbox" id="toggle">
-            <ul class="menu">
-                <li><a href="index.html">Accueil</a></li>
-                <li><a href="my-dreams.html">Mes rêves</a></li>
-                <li><a href="my-passions.html">Mes passions</a></li>
-                <li><a href="cv-fr.pdf" target="_blank">Mon CV</a></li>
-                <li><a href="about-me.html">A propos de moi</a></li>
-            </ul>
+            <div class="menu">
+                <a href="index.html">Accueil</a>
+                <a href="my-dreams.html">Mes rêves</a>
+                <a href="my-passions.html">Mes passions</a>
+                <a href="cv-fr.pdf" target="_blank">Mon CV</a>
+                <a href="about-me.html">A propos de moi</a>
+            </div>
         </nav>
     </div>
     <div class="container">
@@ -36,6 +37,12 @@
     </div>
     <div class="footer">
         <div class="copyright">&copy; 2023 monsite.com</div>
+        <script>
+            function addDarkmodeWidget() {
+              new Darkmode().showWidget();
+            }
+            window.addEventListener('load', addDarkmodeWidget);
+        </script>
     </div>
 </body>
 

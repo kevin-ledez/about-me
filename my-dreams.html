@@ -6,6 +6,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link href="css/style.css" rel="stylesheet" type="text/css">
+    <script src="https://cdn.jsdelivr.net/npm/darkmode-js@1.5.7/lib/darkmode-js.min.js"></script>
     <title>Mes rêves</title>
 </head>
 
@@ -30,12 +31,11 @@
             <ol class="list">
                 <li>Réussir la formation</li>
                 <li>Devenir Développeur Full Stack</li>
-                <li>Objectifs 3</li>
             </ol>
             <h2>Mes objectifs professionnels</h2>
 
             <ol class="list">
-                <li>Objectifs 1</li>
+                <li>Maitriser plusieurs langages de développement</li>
                 <li>Objectifs 2</li>
                 <li>Objectifs 3</li>
             </ol>
@@ -49,6 +49,12 @@
     </div>
     <div class="footer">
         <div class="copyright">&copy; 2023 monsite.com</div>
+        <script>
+            function addDarkmodeWidget() {
+              new Darkmode().showWidget();
+            }
+            window.addEventListener('load', addDarkmodeWidget);
+        </script>
     </div>
 </body>
 

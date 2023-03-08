@@ -6,6 +6,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link href="css/style.css" rel="stylesheet" type="text/css">
+    <script src="https://cdn.jsdelivr.net/npm/darkmode-js@1.5.7/lib/darkmode-js.min.js"></script>
     <title>Mes passions</title>
 </head>
 
@@ -28,7 +29,7 @@
             <h1>Mes passions</h1>
             <h2>Le développement Web</h2>
             <figure>
-                <img src="img/image-web.svg" alt="image-web">
+                <a href="img/image-web.png"><img src="img/image-web_mini.png" alt="Développement Web" title="Clique pour agrandir"></a>
                 <figcaption>Développement Web</figcaption>
             </figure>
             <p class="passions">Le développeur ou la développeuse Full Stack réalise l'ensemble des fonctionnalités
@@ -37,7 +38,7 @@
             </p>
             <h2>Administration serveur dédié</h2>
             <figure>
-                <img src="img/serveur-dedie.png" alt="image-web">
+                <a href="img/serveur-dedie.png"><img src="img/serveur-dedie_mini.png" alt="Administration serveur dédié" title="Clique pour agrandir"></a>
                 <figcaption>Administration serveur</figcaption>
             </figure>
             <p class="passions">L’administration de serveurs dédiés est cruciale pour mettre rapidement en production
@@ -46,6 +47,12 @@
     </div>
     <div class="footer">
         <div class="copyright">&copy; 2023 monsite.com</div>
+        <script>
+            function addDarkmodeWidget() {
+              new Darkmode().showWidget();
+            }
+            window.addEventListener('load', addDarkmodeWidget);
+        </script>
     </div>
 </body>
 
