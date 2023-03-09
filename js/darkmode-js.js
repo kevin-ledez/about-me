@@ -131,12 +131,12 @@ function () {
     }
 
     var defaultOptions = {
-      bottom: '32px',
+      bottom: '80px',
       right: '32px',
       left: 'unset',
       time: '0.5s',
       mixColor: '#fff',
-      backgroundColor: '#FCF8E8',
+      backgroundColor: '#fff',
       buttonColorDark: '#100f2c',
       buttonColorLight: '#fff',
       label: '🌓',

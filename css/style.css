@@ -1,19 +1,48 @@
-html {
-    height: 100%;
-}
-
 body {
     background-color: #FCF8E8;
     margin: 0;
     padding: 0;
-    height: 100%;
     font-family: 'Muli',sans-serif;
+    position: relative;
+    min-height: 100vh;
 }
+
+body::after{ content:''; display:block; height:100px; }
 
 ul {
     list-style-type: none;
     padding: 0;
     margin: 0;
+}
+
+ol {
+    display: inline-block;
+}
+
+h1::before {  
+    transform: scaleX(0);
+    transform-origin: bottom right;
+  }
+
+h1:hover::before {
+    transform: scaleX(1);
+    transform-origin: bottom left;
+}
+  
+h1::before {
+    content: " ";
+    display: block;
+    position: absolute;
+    top: 0; right: 0; bottom: 0; left: 0;
+    inset: 0 0 0 0;
+    background: hsl(200 100% 80%);
+    z-index: -1;
+    transition: transform .3s ease;
+}
+  
+h1 {
+    position: relative;
+    font-size: 3rem;
 }
 
 table {
@@ -103,11 +132,13 @@ label, #toggle
 }
 
 .container {
-    text-align: center;
     min-height: 100%;
+    width: 700px;
+    margin: 15px auto;
 }
 
 .content {
+    text-align: center;
     width: 100%;
 }
 
@@ -125,25 +156,18 @@ label, #toggle
 .footer {
     background-color: #ECB390;
     color: #ffffff;
-    margin-top: 25px;
     width: 100%;
-    height: 50px;
     bottom: 0;
-    left: 0;
-    right: 0;
-}
-
-.footer_parent{
-    position: relative;
+    position: absolute;
 }
 
 .copyright {
-    padding: 15px;
+    
 }
 
 .list {
     margin: auto;
-    display: inline-block;
+
 }
 
 figcaption {
@@ -152,9 +176,4 @@ figcaption {
     font: italic smaller sans-serif;
     padding: 3px;
     text-align: center;
-}
-
-.passions {
-    width: 700px;
-    margin: 15px auto;
 }
