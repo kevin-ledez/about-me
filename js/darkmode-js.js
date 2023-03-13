@@ -136,7 +136,7 @@ function () {
       left: 'unset',
       time: '0.5s',
       mixColor: '#fff',
-      backgroundColor: '#fff',
+      backgroundColor: '#FCF8E8',
       buttonColorDark: '#100f2c',
       buttonColorLight: '#fff',
       label: '🌓',
